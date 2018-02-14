@@ -1,5 +1,5 @@
 body{
-  background-color: beige;
+  background-color: black;
 }
 
 #first{
@@ -11,16 +11,16 @@ body{
   padding: 16px 31px;
   height: 20px;
 
-  background-color: #ed7076;
+  background-color: #1ad1db;
   border-radius: 20px;
-  border: #e3ed51 3px solid;
+  border: #9b2525 3px solid;
   color: #ffffff;
   font-size: 15px;
   line-height: 1px;
 }
 
 #first:hover {
-  background-color:#e0989c;
+  background-color:#305604;
 }
 
 #second{
@@ -32,7 +32,7 @@ body{
   padding: 16px 31px;
   height: 20px;
 
-  background-color: #8370eb;
+  background-color: #db25e8;
   border-radius: 20px;
   border: #52d9eb 3px solid;
   color: #ffffff;
@@ -41,7 +41,7 @@ body{
 }
 
 #second:hover {
-  background-color:#919fe6;
+  background-color:#ff02d9;
 }
 
 #fortune-cache{
@@ -56,7 +56,7 @@ body{
   height: 100px;
   padding: 10px 10px;
   text-align: center;
-  background-color: mediumspringgreen;
+  background-color: pink;
   border: lightgreen 10px inset;
   font-family: "Courier New";
   font-weight: bold;
@@ -73,15 +73,15 @@ body{
   max-height: 250px; 
   width: 320px;
   padding: 10px 10px;
-  background-color: skyblue;
-  border: powderblue 10px outset;
+  background-color: orange;
+  border: red 10px outset;
   font-family: "Courier New";
   overflow-y: auto; 
 }
 
 #other-fortunes-div h3{
   text-align: center;
-  color: steelblue;
+  color: grey;
   font-family: "Georgia";
 }
 
@@ -93,14 +93,14 @@ body{
   width: 600px;
   padding: 10px 10px;
   padding-bottom: 20px;
-  background-color: coral;
-  border: chocolate 10px ridge;
+  background-color: darkblue;
+  border: red 10px ridge;
   text-align: center;
   font-family: "Courier New";
 }
 
 #statistics h3{
-  color: peachpuff;
+  color: purple;
   font-family: "Georgia";
 }
 
