@@ -1,6 +1,6 @@
-console.log("JS is Linked Properly"); //this should always show in console
+console.log("JS is Linked Properly");
 
-var fortunesList = ["die soon", "find a million dollar", "become homeless", "jump off a building", "turn into mothman", "become tall", "lose your mind", "drive into a bank", "GROW", "turn upside down", "try to be hot", "excel at life", "be the greates", "hurt for years"];
+var fortunesList = ["die soon", "find a million dollar", "become homeless", "jump off a building", "turn into mothman", "become tall", "lose your mind", "drive into a bank", "GROW", "turn upside down", "try to be hot", "excel at life", "be the greatest", "hurt for years"];
 function generateFortuneCookie(){ 
   var cloneList = fortunesList.slice(); 
 

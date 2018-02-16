@@ -1,10 +1,10 @@
 body{
-  background-color: black;
+  background-color: pink;
 }
 
 #first{
   display: block;
-  margin-left: auto;
+  margin-left: 20px;
   margin-right: auto;
   margin-top: 50px;
   margin-bottom: 20px;
@@ -13,19 +13,19 @@ body{
 
   background-color: #1ad1db;
   border-radius: 20px;
-  border: #9b2525 3px solid;
+  border: #fc0f99 3px groove;
   color: #ffffff;
   font-size: 15px;
   line-height: 1px;
 }
 
 #first:hover {
-  background-color:#305604;
+  background-color:#040ce8;
 }
 
 #second{
   display: none;
-  margin-left: auto;
+  margin-left: 20px;
   margin-right: auto;
   margin-top: 50px;
   margin-bottom: 20px;
@@ -49,9 +49,9 @@ body{
 }
 
 #fortune-cookie-text{
-  margin-left: auto;
+  margin-left: 30px;
   margin-right: auto;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
   width: 320px;
   height: 100px;
   padding: 10px 10px;
@@ -68,7 +68,7 @@ body{
 }
 
 #other-fortunes-div{
-  margin-left: auto;
+  margin-left: 30px;
   margin-right: auto;
   max-height: 250px; 
   width: 320px;
@@ -87,13 +87,13 @@ body{
 
 #statistics{
   margin-right: auto;
-  margin-left: auto;
-  margin-top: 20px;
+  margin-left: 30px;
+  margin-top: 10px;
   margin-bottom: 20px;
   width: 600px;
   padding: 10px 10px;
   padding-bottom: 20px;
-  background-color: darkblue;
+  background-color: orange;
   border: red 10px ridge;
   text-align: center;
   font-family: "Courier New";
@@ -107,11 +107,4 @@ body{
 #total {
   font-weight: bold;
   font-style: italic;
-}
-
-#pie{
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 20px;
-  display: block;
 }
