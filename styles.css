@@ -1,43 +1,41 @@
 body{
-  background-color: pink;
+  background-color: lightseagreen;
 }
 
 #first{
   display: block;
   margin-left: 20px;
-  margin-right: auto;
-  margin-top: 50px;
+  margin-top: 5px;
   margin-bottom: 20px;
-  padding: 16px 31px;
+  padding: 20px 15px;
   height: 20px;
 
-  background-color: #1ad1db;
+  background-color: #87CEFA;
   border-radius: 20px;
-  border: #fc0f99 3px groove;
+  border: #00BFFF 8px dashed;
   color: #ffffff;
-  font-size: 15px;
-  line-height: 1px;
+  font-size: 18px;
+  line-height: 2px;
 }
 
 #first:hover {
-  background-color:#040ce8;
+  background-color: #FFD700;
 }
 
 #second{
   display: none;
   margin-left: 20px;
-  margin-right: auto;
-  margin-top: 50px;
+  margin-top: 5px;
   margin-bottom: 20px;
-  padding: 16px 31px;
+  padding: 20px 15px;
   height: 20px;
 
   background-color: #db25e8;
   border-radius: 20px;
-  border: #52d9eb 3px solid;
+  border: #52d9eb 8px dashed;
   color: #ffffff;
-  font-size: 15px;
-  line-height: 1px;
+  font-size: 18px;
+  line-height: 2px;
 }
 
 #second:hover {
@@ -50,39 +48,37 @@ body{
 
 #fortune-cookie-text{
   margin-left: 30px;
-  margin-right: auto;
-  margin-bottom: 50px;
-  width: 320px;
-  height: 100px;
+  margin-bottom: 25px;
+  width: 420px;
+  height: 150px;
   padding: 10px 10px;
   text-align: center;
   background-color: pink;
-  border: lightgreen 10px inset;
-  font-family: "Courier New";
+  border: lightgreen 10px dotted;
+  font-family: "Arial";
   font-weight: bold;
 }
 
 #fortune-cookie-text h3{
   color: seagreen;
-  font-family: "Georgia";
+  font-family: "Verdana";
 }
 
 #other-fortunes-div{
   margin-left: 30px;
-  margin-right: auto;
   max-height: 250px; 
-  width: 320px;
+  width: 420px;
   padding: 10px 10px;
   background-color: orange;
-  border: red 10px outset;
-  font-family: "Courier New";
+  border: red 10px dotted;
+  font-family: "Times New Roman";
   overflow-y: auto; 
 }
 
 #other-fortunes-div h3{
   text-align: center;
   color: grey;
-  font-family: "Georgia";
+  font-family: "Lucida Console";
 }
 
 #statistics{
@@ -94,17 +90,17 @@ body{
   padding: 10px 10px;
   padding-bottom: 20px;
   background-color: orange;
-  border: red 10px ridge;
+  border: red 10px dashed;
   text-align: center;
-  font-family: "Courier New";
+  font-family: "Lucida Console";
 }
 
 #statistics h3{
   color: purple;
-  font-family: "Georgia";
+  font-family: "Times New Roman";
 }
 
 #total {
   font-weight: bold;
-  font-style: italic;
+  font-style: oblique;
 }

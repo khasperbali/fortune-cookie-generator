@@ -1,6 +1,4 @@
-console.log("JS is Linked Properly");
-
-var fortunesList = ["die soon", "find a million dollar", "become homeless", "jump off a building", "turn into mothman", "become tall", "lose your mind", "drive into a bank", "GROW", "turn upside down", "try to be hot", "excel at life", "be the greatest", "hurt for years"];
+var fortunesList = ["Wake up late", "Get paid early", "Get a new phone", "Fail the school year", "Forget your homework", "Win a new house", "Get asked out by your crush", "Become ill", "Turn into a superhero", "Grow taller", "Ignore previous fortunes", "Lose a friend", "Marry the love of your life",];
 function generateFortuneCookie(){ 
   var cloneList = fortunesList.slice(); 
 
@@ -43,7 +41,6 @@ function anotherFortune(){
   if(count == max){ 
     generateFortuneCookie();
     stats();
-    pieChart();
     count = 0;
     var nodetwo = tempCache.lastChild;
   }
@@ -76,43 +73,43 @@ function stats(){
   if(dataLast.includes("soon")){  
     fortuneOneTotal++ 
   }
-  if(dataLast.includes("dollar")){
+  if(dataLast.includes("late")){
     fortuneTwoTotal++
   }
-  if(dataLast.includes("homeless")){
+  if(dataLast.includes("early")){
     fortuneThreeTotal++  
   }
-  if(dataLast.includes("building")){
+  if(dataLast.includes("phone")){
     fortuneFourTotal++   
   }
-  if(dataLast.includes("mothman")){
+  if(dataLast.includes("year")){
     fortuneFiveTotal++  
   }
-  if(dataLast.includes("tall")){
+  if(dataLast.includes("homework")){
     fortuneSixTotal++  
   }
-  if(dataLast.includes("mind")){
+  if(dataLast.includes("house")){
     fortuneSevenTotal++  
   }
-  if(dataLast.includes("bank")){
+  if(dataLast.includes("crush")){
     fortuneEightTotal++  
   }
-  if(dataLast.includes("GROW")){
+  if(dataLast.includes("ill")){
     fortuneNineTotal++  
   }
-  if(dataLast.includes("down")){
+  if(dataLast.includes("superhero")){
     fortuneTenTotal++  
   }
-  if(dataLast.includes("hot")){
+  if(dataLast.includes("taller")){
     fortuneElevenTotal++  
   }
-  if(dataLast.includes("life")){
+  if(dataLast.includes("fortunes")){
     fortuneTwelveTotal++  
   }
-  if(dataLast.includes("greatest")){
+  if(dataLast.includes("friend")){
     fortuneThirteenTotal++  
   }
-  if(dataLast.includes("years")){
+  if(dataLast.includes("life")){
     fortuneFourteenTotal++  
   }
  
