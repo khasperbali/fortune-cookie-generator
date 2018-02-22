@@ -1,58 +1,38 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
+
 <head>
-  <title>Fortune Cookie Generator</title>
-  <link rel="stylesheet" href="styles.css">
   <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Fortune Cookie Generator</title>
+  <meta name="description" content="This page generates fortune cookie sayings.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="styles.css">
+  <script type="text/javascript" src="apps.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Satisfy' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+
 </head>
+
 <body>
-  <button onclick="generateFortuneCookie()" id="first">Accept a fortune?</button>
-  <button onclick="anotherFortune();" id="second">Try again</button>
-  <div id="fortune-cache">
+  <h1>Fortune Cookie Generator</h1>
+  <p>Use this page to generate fortune cookie sayings.</p>
+  <div class="fortune-cookie-saying-wrapper">
+    
+    <p id="fortune-cookie-text"></p>
   </div>
-  <div id="fortune-cookie-text">
-    <h3>Your Fortune</h3>
-  </div>
-  <div id="other-fortunes-div">
-    <h3>Previous Fortunes</h3>
-      <ul id="previous-fortunes">
-      </ul>
-  </div>
-  <canvas id="pie" height="200" width="200"></canvas>
-  <div id="statistics">
-    <h3>Fortune Statistics</h3>
-    <p id="total">
-      Total Fortunes Generated: 0
-    </p>
-    <div id="one"> 
-    </div>
-    <div id="two">
-    </div>
-    <div id="three">
-    </div>
-    <div id="four">   
-    </div>
-    <div id="five">
-    </div>
-    <div id="six">
-    </div>
-    <div id="seven">
-    </div>
-    <div id="eight">
-    </div>
-    <div id="nine">
-    </div>
-    <div id="ten">
-    </div>
-    <div id="eleven">
-    </div>
-    <div id="twelve">
-    </div>
-    <div id="thirteen">
-    </div>
-    <div id="fourteen">
-    </div>
-  </div>
+
+  <button id="generate-button" onclick="generateFortuneCookie()">
+            Make My Fortune!
+           </button>
+
+
+
+  <hr>
+  <h2>Previous Fortunes</h2>
+  <ul id="previous-fortunes-container">
+  </ul>
 </body>
-<script src="apps.js"></script>
+
 </html>

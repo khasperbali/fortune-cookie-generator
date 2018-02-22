@@ -1,106 +1,55 @@
-body{
-  background-color: lightseagreen;
+html {
+    text-align: center;
+    padding: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: rgba(244, 113, 113, 0.99);
 }
 
-#first{
-  display: block;
-  margin-left: 20px;
-  margin-top: 5px;
-  margin-bottom: 20px;
-  padding: 20px 15px;
-  height: 20px;
-
-  background-color: #87CEFA;
-  border-radius: 20px;
-  border: #00BFFF 8px dashed;
-  color: #ffffff;
-  font-size: 18px;
-  line-height: 2px;
+.fortune-cookie-saying-wrapper {
+    padding: 1em;
+    margin: 1em;
+    background-image: url('fortune-cookie2.jpg');
+    background-size: 700px; 
+    height: 400px; 
+    background-repeat: no-repeat;
+    background-position: center;
+   
 }
 
-#first:hover {
-  background-color: #FFD700;
+ul {
+    list-style: none;
+}
+li {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+img {
+    size: 100px; 
 }
 
-#second{
-  display: none;
-  margin-left: 20px;
-  margin-top: 5px;
-  margin-bottom: 20px;
-  padding: 20px 15px;
-  height: 20px;
-
-  background-color: #db25e8;
-  border-radius: 20px;
-  border: #52d9eb 8px dashed;
-  color: #ffffff;
-  font-size: 18px;
-  line-height: 2px;
+p#fortune-cookie-text {
+    margin-top: 250px; 
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 30px; 
+    text-align: center;
 }
 
-#second:hover {
-  background-color:#ff02d9;
+h1, h2 {
+    font-family: 'Satisfy', cursive; 
+}
+h1 {
+  font-size: 60px;
+}
+h2 {
+  font-size: 40px; 
 }
 
-#fortune-cache{
-  display: none;
-}
-
-#fortune-cookie-text{
-  margin-left: 30px;
-  margin-bottom: 25px;
-  width: 420px;
-  height: 150px;
-  padding: 10px 10px;
-  text-align: center;
-  background-color: pink;
-  border: lightgreen 10px dotted;
-  font-family: "Arial";
-  font-weight: bold;
-}
-
-#fortune-cookie-text h3{
-  color: seagreen;
-  font-family: "Verdana";
-}
-
-#other-fortunes-div{
-  margin-left: 30px;
-  max-height: 250px; 
-  width: 420px;
-  padding: 10px 10px;
-  background-color: orange;
-  border: red 10px dotted;
-  font-family: "Times New Roman";
-  overflow-y: auto; 
-}
-
-#other-fortunes-div h3{
-  text-align: center;
-  color: grey;
-  font-family: "Lucida Console";
-}
-
-#statistics{
-  margin-right: auto;
-  margin-left: 30px;
-  margin-top: 10px;
-  margin-bottom: 20px;
-  width: 600px;
-  padding: 10px 10px;
-  padding-bottom: 20px;
-  background-color: orange;
-  border: red 10px dashed;
-  text-align: center;
-  font-family: "Lucida Console";
-}
-
-#statistics h3{
-  color: purple;
-  font-family: "Times New Roman";
-}
-
-#total {
-  font-weight: bold;
-  font-style: oblique;
+button {
+  display: inline-block;
+  border-radius: 8px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  padding: 20px 50px;
+  background-color: rgba(255, 200, 112, 1);
+  font-size: 15px; 
 }
